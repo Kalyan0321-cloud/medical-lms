@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
-from app.routers import auth, users
+from backend.app.routers import auth, users
 from app.database import create_tables
 from app.models import Tenant, User
 
